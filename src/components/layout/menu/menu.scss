@@ -1,0 +1,10 @@
+.ul-menu {
+	opacity: 0;
+	visibility: hidden;
+}
+.ul-menu.open {
+	opacity: 1;
+	transition-duration: 0.5s;
+	transition-delay: 0.5s;
+	visibility: visible;
+}
